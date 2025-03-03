@@ -1,3 +1,4 @@
+'''
 Enumeration, f-strings, and Capitalizing
 Similar to the previous exercise, we have a list of three strings defined in the code area. Your task is to:
 
@@ -16,3 +17,7 @@ Similar to the previous exercise, we have a list of three strings defined in the
 2-Presentation.txt
 
 Notice the first letter of each string is capitalized.
+'''
+filenames = ['document', 'report', 'presentation']
+for c, v in enumerate(filenames):
+    print(f'{c}-{v.capitalize()}.txt')
